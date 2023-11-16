@@ -58,7 +58,7 @@ body, header, footer {
 
 #element::-webkit-scrollbar-thumb {
   border-radius: 7px;
-  background-color: #108484;
+  background-color: #1bdada;
 }
 
 #element::-webkit-scrollbar-track {

@@ -1,0 +1,172 @@
+@import url(null.css);
+
+
+.container {
+    margin: 2% 25% 0 25%;
+}
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.methods {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.methods a {
+    display: block;
+    width: 50%;
+    text-decoration: none;
+    color: #000;
+    font-size: 26px;
+}
+
+.google {
+    height: 60px;
+    border: 3px solid #000;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #6F6F6F;
+}
+.or img {
+    padding-top: 6px;
+}
+
+.signupemail {
+    font-size: 26px;
+}
+
+form {
+    margin: 3% 10% 10% 10%;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    align-items: start;
+}
+
+.field {
+    font-size: 24px;
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.field input {
+    width: 100%;
+    height: 50px;
+    border: 3px solid #6F6F6F;
+    font-size: 24px;
+    align-items: center;
+    display: flex;  
+    padding-left: 30px;
+    font-weight: 600;
+    color: #6F6F6F;
+}
+
+.appear {
+    color: #6F6F6F;
+    font-family: Commissioner;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+input:focus, input:hover {
+    color: black;
+}
+
+input[type=radio] {
+    width: 30px;
+}
+
+.radiogroup {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.genre {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type=radio]:checked {
+    color: black;
+}
+
+.agreements {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.agreement {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+    width: 90%;
+}
+
+#link {
+    color: #1bdada;
+}
+
+.privacy {
+    width: 70%;
+    margin: 0 15%;
+    text-align: center;
+}
+
+input[type=submit] {
+    display: flex;
+    justify-content: center;
+    width: 310px;
+    height: 65px;
+    border-radius: 34px;
+    background: #1BDADA;
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 30%;
+    border: 0px;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+}
+
+.login {
+    width: 100%;
+    font-size: 28px;
+    text-align: center;
+}
