@@ -1,0 +1,242 @@
+@import url(null.css);
+
+body {
+    background-color: black;
+    color: white;
+}
+.base {
+    border-radius: 17px;
+    background: #121212;
+    width: 410px;
+    height: 140px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 8px;
+}
+
+.base .buttons {
+    width: 105px;
+    height: 40px;
+    padding: 25px 0 0 35px;
+}
+
+.search {
+    margin-top: 20px;
+}
+.home, .search {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.right {
+    width: 100%;
+    height: 875px;
+    background-image: linear-gradient(#5C23A5 1%, #121212, #121212, #121212, #121212);
+    border-radius: 17px;
+    margin: 8px 8px 0 0;
+    padding: 15px 30px 0 50px;
+    box-sizing: border-box;
+}
+.left {
+    height: 725px;
+}
+.lib {
+    background: #121212;
+    border-radius: 17px;
+    width: 410px;
+    height: 100%;
+    margin: 8px;
+    padding: 15px 0 0 35px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.lib_title {
+    display: flex;
+    align-items: center;
+}
+
+.playlist {
+    display: flex;
+    align-items: center; 
+    gap: 15px;
+    background-color: #1b1b1b;
+    width: 350px;
+    border-radius: 10px;
+    height: 70px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.playlist_info {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.playlist_name {
+    font-size: 16px;
+}
+
+.playlist_creator {
+    color: #747474;
+    font-size: 14px;
+}
+
+.test {
+    background-color: white;
+    width: 1536px;
+    height: 100px;
+}
+
+.main_container {
+    display: flex;
+}
+
+.hello_text {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nav .buttons {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+
+.premium, .install {
+    justify-content: center;
+    border-radius: 20px;
+    font-weight: 500;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+}
+
+.premium {
+    background-color: #fff;
+    color: black;
+    width: 185px;
+    height: 35px;
+}
+
+.install {
+    background-color: #000000B2;
+    color: white;
+    width: 120px;
+}
+
+.genres {
+    margin-top: 90px;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.container_genres {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+
+.container_playlists {
+    margin-top: 20px;
+    height: 90%;
+    overflow: auto;
+}
+
+.genre {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 0 0 20px;
+    width: 180px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.pop {
+    background-color: #26E22DA6;;
+}
+
+.electronic {
+    background-color: #FFD600D6;
+}
+
+.jazz {
+    background-color: #FFFFFF4A;
+}
+
+.phonk {
+    background-color: #1BDADAC7;
+}
+
+.country {
+    background-color: #FF7C33D9;
+}
+
+.metal {
+    background-color: #A80E0EAD;
+}
+
+.rock {
+    background-color: #FF0000B2;
+}
+
+.rap {
+    background-color:#2D5BFF82; 
+}
+
+.hip_hop {
+    background-color: #E64DFF9E;
+}
+
+.folk {
+    background-color: #7E5A23;
+}
+
+.classical {
+    background-color: #DFDFDFA8;
+}
+
+.indie {
+    background-color:#4AA7FCA1;
+}
+
+.recently_played {
+    margin-top: 30px;
+}
+
+.container_recently {
+    overflow: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.recently {
+    padding: 15px 25px;
+    background-color: #D9D9D917;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;    
+    box-sizing: border-box;
+}
+.image img {
+    width: 100%;
+}
+.recently_name {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.recently_autor {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #747474;
+}

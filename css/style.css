@@ -1,0 +1,275 @@
+@import url(null.css);
+
+body, header, footer {
+  font-family: Commissioner;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
+
+.container_header {
+  margin: 0 10%;
+  width: 80%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 222px;
+  display: flex;
+  align-items: center;  
+}
+
+.logo_name {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+}
+.nav {
+  margin: 40px auto 40px 300px;
+  width: 100%;
+  color: white;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav ul {
+  display: flex;
+  gap: 30px;
+  justify-content: end;
+}
+
+.nav ul li {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.blue_block {
+  background-color: #1bdada;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container_windows h1, h3 {
+  margin-top: 10px;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.container_windows {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container_windows .button_download {
+  margin-top: 100px;
+}
+
+.button_download a {
+  display: flex;
+  align-items: center;
+}
+
+.button_download {
+  background-color: black;
+  width: 300px;
+  height: 100px;
+  border-radius: 26px;
+  display: flex;
+  align-items: center;
+}
+
+.button_download a p {
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  margin-left: 15px;
+}
+
+.button_download img {
+  width: 70px;
+  height: 70px;
+  margin-left: 25px;  
+}
+
+.link_download {
+  text-decoration: none;
+}
+
+.white_block {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.white_block p {
+  font-size: 30px;
+}
+
+.container_android > p {
+  font-weight: 500;
+}
+
+.container_android {
+  display: flex;
+  align-items: center;
+}
+
+.white_block .button_download {
+  margin-left: 30px;
+}
+
+.grey_block {
+  background-color: #2f2f2f;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container_crossplatform {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  gap: 70px;
+}
+
+.container_crossplatform img {
+  width: 200px;
+}
+
+.container_crossplatform h2 {
+  color: white;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.list_platforms {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.list_platforms ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.list_platforms li {
+  color:#1bdada;
+  font-weight: bolder;
+}
+
+.footer {
+  background-color: black;
+  height: 600px;
+  color: white;
+}
+
+.container_footer {
+  padding-top: 70px;
+  margin-left: 10%;
+  display: flex;
+}
+
+.container_footer a:hover {
+  text-decoration: solid white;
+  transition: 0.5s;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin-top: 40px;
+}
+
+.links_name {
+  color: #979797;
+  font-family: Commissioner;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.links ul li {
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.container_footer .logo {
+  height: 100px;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+}
+
+.social {
+  margin-top: 60px;
+  gap: 20px;
+  width: 20%;
+}
+
+.social img {
+  margin-left: 20px;
+}
+
+.list_documents ul {
+  margin-top: 150px;
+  margin-left: 150px;
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+.list_documents a {
+  text-decoration: none;
+  color: #777;
+  font-family: Commissioner;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.list_documents {
+  display: flex;
+}
+
+.copyright {
+  margin-top: 150px;
+  margin-left: 300px;
+}
+
