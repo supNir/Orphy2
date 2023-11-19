@@ -266,6 +266,7 @@ h3 {
 
 .list_documents {
   display: flex;
+  /* margin-left: 10%; */
 }
 
 .copyright {
@@ -273,3 +274,7 @@ h3 {
   margin-left: 300px;
 }
 
+#element::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  background-color: #11a2a2;
+}

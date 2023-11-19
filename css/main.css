@@ -16,6 +16,15 @@ body {
     margin: 8px;
 }
 
+.base input {
+    
+}
+
+.base a {
+    text-decoration: none;
+    color: white;
+}
+
 .base .buttons {
     width: 105px;
     height: 40px;
@@ -248,4 +257,8 @@ body {
     font-size: 14px;
     margin-top: 10px;
     color: #747474;
+}
+
+.lib img {
+    width: 50px;
 }
