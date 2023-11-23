@@ -53,6 +53,7 @@ body, header, footer {
 }
 
 #element::-webkit-scrollbar {
+  visibility: hidden;
   width: 10px;
 }
 
@@ -64,6 +65,10 @@ body, header, footer {
 #element::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
   background-color: black;
+}
+
+#element::-webkit-scrollbar:hover {
+  display: block;
 }
 
 #hoverlink:hover {

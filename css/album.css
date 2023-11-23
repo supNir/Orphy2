@@ -1,0 +1,90 @@
+@import url(null.css);
+@import url(main.css);
+
+.right {
+    background: linear-gradient(180deg, #1fde64 0%, rgba(16, 18, 18, 0.76) 32.85%, rgba(18, 18, 18, 0.00) 100%);
+}
+* {
+    transition: 0.3s;
+}
+.album_info { 
+    margin: 10% 5% 0 5%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.album_img img {
+    width: 300px;
+}
+
+.album_name {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.play {
+    margin: 3% 0 0 5%;
+}
+
+table {
+    margin: 1% 5% 5% 5%;
+    width: 90%;
+    font-size: 26px;
+    
+}
+
+table tr {
+    position: relative;
+    height: 60px;
+    display: flex;
+  align-items: center
+}
+table tr:nth-child(n+2):hover {
+    transition: background-color 0.4s;
+    background-color: #222;
+}
+
+table img {
+    width: 40px;
+}
+
+table tr:first-child {
+    border-bottom: #555 solid 1px;
+}
+
+table td:first-child {
+    align-self: center;
+    width: 3%;
+}
+
+table tr:nth-child(n+2) td:first-child:hover {
+    background: url(../images/play.png) no-repeat;
+    background-position-x: -5px;
+    background-position-y: -5px;
+    background-size: 30px 30px;
+}
+
+table td:nth-child(2) {
+    width: 87%;
+}
+
+table td:last-child {
+    width: 10%;
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: url(../images/play1.png);
+    background-size: 107px 107px;
+    background-position-x: -7px;
+    background-position-y: -7px;
+}
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.7s;
+}
