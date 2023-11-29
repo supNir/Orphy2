@@ -21,7 +21,7 @@
 
 .methods {
     margin-top: 40px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     text-align: center;
     height: auto;
@@ -34,58 +34,64 @@
 
 .methods a {
     display: block;
-    width: 50%;
+    width: 40%;
     text-decoration: none;
     color: #000;
     font-size: 26px;
 }
 
 .google {
-    height: 60px;
+    align-self: center;
+    height: 40px;
     border: 3px solid #000;
     border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
     gap: 10px;
+}
+.google img {
+    width: 30px;
 }
 
 .or {
+    font-size: 20px;
     display: flex;
     align-items: center;
     gap: 15px;
     color: #6F6F6F;
 }
 .or img {
-    padding-top: 6px;
+        width: 150px;
 }
 
 .signupemail {
-    font-size: 26px;
+    font-size: 22px;
 }
 
 form {
     margin: 3% 10% 10% 10%;
     display: flex;
-    gap: 40px;
+    gap: 25px;
     flex-direction: column;
     align-items: start;
 }
 
 .field {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 .field input {
     width: 100%;
-    height: 50px;
+    height: 35px;
     border: 3px solid #6F6F6F;
-    font-size: 24px;
+    font-size: 16px;
     align-items: center;
     display: flex;  
     padding-left: 30px;
@@ -99,6 +105,7 @@ form {
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
+    margin-top: -20px;
 }
 
 input:focus, input:hover {
@@ -106,19 +113,20 @@ input:focus, input:hover {
 }
 
 input[type=radio] {
-    width: 30px;
+    width: 20px;
 }
 
 .radiogroup {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
 }
 
 .genre {
     display: flex;
     align-items: center;
     gap: 10px;
+    font-size: 16px;
 }
 
 input[type=radio]:checked {
@@ -128,8 +136,8 @@ input[type=radio]:checked {
 .agreements {
     display: flex;
     flex-direction: column;
-    gap: 60px;
-    font-size: 20px;
+    gap: 30px;
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -153,14 +161,14 @@ input[type=radio]:checked {
 input[type=submit] {
     display: flex;
     justify-content: center;
-    width: 310px;
-    height: 65px;
+    width: 180px;
+    height: 50px;
     border-radius: 34px;
     background: #1BDADA;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 700;
-    margin-left: 30%;
     border: 0px;
+    align-self: center;
 }
 
 input[type=submit]:hover {
@@ -169,6 +177,6 @@ input[type=submit]:hover {
 
 .login {
     width: 100%;
-    font-size: 28px;
+    font-size: 18px;
     text-align: center;
 }

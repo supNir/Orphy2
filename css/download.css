@@ -91,7 +91,7 @@ h3 {
   align-items: center;
 }
 
-.container_windows .button_download {
+.container_windows .link_download {
   margin-top: 100px;
 }
 
@@ -109,7 +109,7 @@ h3 {
   align-items: center;
 }
 
-.button_download a p {
+.button_download p {
   font-size: 30px;
   font-weight: 500;
   color: white;
