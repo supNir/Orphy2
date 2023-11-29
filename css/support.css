@@ -100,6 +100,11 @@ ul a {
 }
 
 ul a:hover {
+    transition: filter 0.2s;
+    filter: brightness(0);
+}
+
+ul a:hover {
     color: black;
 }
 
