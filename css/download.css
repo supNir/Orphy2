@@ -193,7 +193,7 @@ h3 {
 
 .footer {
   background-color: black;
-  height: 600px;
+  height: 500px;
   color: white;
 }
 
@@ -204,8 +204,9 @@ h3 {
 }
 
 .links {
+  justify-content: center;
   display: flex;
-  justify-content: space-around;
+  gap: 10%;
   width: 60%;
   margin-top: 40px;
 }
@@ -213,15 +214,15 @@ h3 {
 .links_name {
   color: #979797;
   font-family: Commissioner;
-  font-size: 24px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
 
 .links ul li {
-  margin-top: 40px;
-  font-size: 20px;
+  margin-top: 30px;
+  font-size: 16px;
 }
 
 .container_footer .logo {
@@ -244,11 +245,10 @@ h3 {
 }
 
 .list_documents ul {
-  margin-top: 150px;
-  margin-left: 150px;
+  margin-top: 50px;
   display: flex;
-  width: 50%;
-  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
 }
 .list_documents a {
   text-decoration: none;
@@ -261,13 +261,14 @@ h3 {
 }
 
 .list_documents {
+  margin: 5% 10% 0 10%;
   display: flex;
-  margin-left: 10%;
+  width: 80%;
+  justify-content: space-evenly;
 }
 
 .copyright {
-  margin-top: 150px;
-  margin-left: 300px;
+  align-self:last baseline;
 }
 
 #element::-webkit-scrollbar-thumb {
