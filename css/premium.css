@@ -185,3 +185,14 @@ ol > li:before{
     height: 40px;
     font-weight: 500;
 }
+
+.first_step:hover {
+    color: #aaa;
+    transition: color 0.5s;
+}
+
+.check_out:hover {
+    background-color: #7d36c4;
+    transition: background-color 0.5s;
+}
+
