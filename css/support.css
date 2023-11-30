@@ -5,8 +5,8 @@
     background-color: #18181800;
 }
 .main_content {
+    height: auto;
     background: linear-gradient(178deg, #438981 2.04%, #1B2F2D 20%, #181818 59.28%);
-    height: 120vh;
 }
 
 .content {
@@ -46,7 +46,7 @@ input[type=search] {
 }
 
 .container_buttons {
-    margin-bottom: 200px;
+    margin-bottom: 50px;
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -76,7 +76,6 @@ input[type=search] {
 
 .quick_help {
     background: #3A3A3A;
-    height: 50vh;
     color: white;
 }
 
@@ -99,7 +98,7 @@ ul a {
     justify-content:space-between;
 }
 
-ul a:hover {
+.quick_links ul a:hover {
     transition: filter 0.2s;
     filter: brightness(0);
 }
@@ -112,10 +111,12 @@ ul img {
     width: 20px;
     padding-left: 100px;
 }
+.community {
+    background: #141414;
+}
 
 .community .content {
-    background: #141414;
-    height: 40vh;
+
     color: white;
     text-align: center;
     font-size: 34px;
