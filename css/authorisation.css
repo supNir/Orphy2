@@ -80,6 +80,13 @@
     border-radius: 50px;
     height: 50px;
     align-self: center;
+    transition: background-color .3s;
+}
+
+.google:hover {
+    background-color: white;
+    color: black;
+    transition: all .6s;
 }
 
 .google img {
@@ -132,6 +139,11 @@ input[type=submit] {
     align-self: center;
     border: 0px;
     cursor: pointer;
+    transition: background-color .5s;
+}
+input[type=submit]:hover {
+    background-color: #169f9f;
+    transition: background-color .5s;
 }
 
 .forgot {
