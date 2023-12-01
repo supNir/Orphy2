@@ -80,6 +80,7 @@ body, header, footer {
   display: block;
 }
 
-#hoverlink:hover {
-  color: #1bdada;
+.hoverlink a:hover {
+  color: #1bdada !important;
 }
+  
