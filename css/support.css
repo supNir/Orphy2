@@ -103,7 +103,7 @@ ul a {
     filter: brightness(0);
 }
 
-ul a:hover {
+.quick_help a:hover {
     color: black;
 }
 
